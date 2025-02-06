@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <title>Ian Dozier's Portfolio</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#About Me">About Me</a></li>
-                <li><a href="#Academics">Academics</a></li>
-                <li><a href="#Experiences">Experiences</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="background">
-    <!-- Just for the background -->
-    </div>
-    <main>
+
+    <?php require('header.php'); ?>
     <div class="profile-section">
         <button onclick="openLink('https://www.linkedin.com/in/ian-dozier-582b89260/')">
             <img src="Profile photo.jpeg" alt="profile photo" class="profile-pic">
@@ -87,11 +66,5 @@
                 </div>
             </div>
     </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Ian Dozier</p>
-        <p><a href="idcdozier@gmail.com">Contact Me</a></p>
-        <p><a href="https://www.linkedin.com/in/ian-dozier-582b89260/">LinkedIn</a></p>
-    </footer>
-</body>
-</html>
+    <?php include('footer.php'); ?>
+    
