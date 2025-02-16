@@ -1,7 +1,7 @@
 <script>
     fetch('header.html')
     .then(response => response.text())
-    .then(data => document.getElementById('header').innerHTML = data)
+    .then(data => document.getElementById('header.html').innerHTML = data)
     .catch(error => console.error('Error loading header:', error));
 </script>
 <div class="text-box">
@@ -25,6 +25,6 @@
 <script>
     fetch('footer.html')
     .then(response => response.text())
-    .then(data => document.getElementById('footer').innerHTML = data)
+    .then(data => document.getElementById('footer.html').innerHTML = data)
     .catch(error => console.error('Error loading footer:', error));
 </script>
