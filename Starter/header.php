@@ -11,9 +11,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#About Me">About Me</a></li>
-                <li><a href="#Academics">Academics</a></li>
-                <li><a href="#Experiences">Experiences</a></li>
+                <li><a href="index.php">About Me</a></li>
+                <li><a href="academics.php">Academics</a></li>
+                <li><a href="experiences.php">Experiences</a></li>
+                <li><a href="contact_me.php">Contact Me</a></li>
             </ul>
         </nav>
     </header>
@@ -21,3 +22,8 @@
     <!-- Just for the background -->
     </div>
     <main>
+    <div class="profile-section">
+        <button onclick="openLink('https://www.linkedin.com/in/ian-dozier-582b89260/')">
+            <img src="Profile photo.jpeg" alt="profile photo" class="profile-pic">
+        </button>
+    </div>
