@@ -1,10 +1,6 @@
-<!--<script>
-    fetch('header.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('header.html').innerHTML = data)
-    .catch(error => console.error('Error loading header:', error));
-</script>-->
-<include src="header.html"></include>
+<script src="headerNav.js" defer></script>
+<div id="header-placeholder"></div>
+
 <div class="text-box">
     <h1> Welcome to my Portfolio</h1>
     <p class="by-line">By: Ian Dozier</p>
@@ -23,9 +19,5 @@
     </p>
     </div>
 </section>
-<script>
-    fetch('footer.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('footer.html').innerHTML = data)
-    .catch(error => console.error('Error loading footer:', error));
-</script>
+<script src="footerNav.js" defer></script>
+<div id="footer-placeholder"></div>
