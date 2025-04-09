@@ -1,4 +1,5 @@
-<?php require('header.php'); ?>
+<!-- Ian Dozier -->
+<?php require('includes/header.php'); ?>
 <section id="Experiences" class="content-section">
         <div class="text-box">
                 <h2>Experiences</h2>
@@ -9,7 +10,7 @@
                         There I worked on an online learning platform for K-12 students and where I learned to make web pages like the one you're currently interacting with.
                         I also worked on a VR simulation for the Navy and under my mentor,
                     <button onclick="openLink('https://www.linkedin.com/in/cheryldseals/')">
-                        <u>Dr. Cheryl Seals</u>
+                        <b><u>Dr. Cheryl Seals</u></b>
                     </button>
                         I learned to apply key concepts and techniques which include,
                         data structures, object-oriented programming (OOP), and I learned a little about algorithms.
@@ -28,4 +29,4 @@
                 </div>
             </div>
     </section>
-<?php include('footer.php'); ?>
+<?php include('includes/footer.php'); ?>

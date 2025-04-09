@@ -1,4 +1,5 @@
-<?php require('header.php'); ?>
+<!-- Ian Dozier -->
+<?php require('includes/header.php'); ?>
 <section id="Academics" class="content-section">
         <div class="text-box">
             <h2>Academics</h2>
@@ -15,4 +16,4 @@
         </div>
         </div>
     </section>
-<?php include('footer.php'); ?>
+<?php include('includes/footer.php'); ?>
